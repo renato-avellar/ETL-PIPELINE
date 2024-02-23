@@ -8,6 +8,10 @@ disable=
       W0311, # bad-indentation
       W0221, # arguments-differ
       C0303, # Trailing whitespace
+      W0718, # broad-exception-caught
+      C0411, # wrong-import-order
+      E0202, # method-hidden
+      E0401, #Unable to import
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and

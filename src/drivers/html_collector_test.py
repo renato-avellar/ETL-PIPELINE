@@ -1,5 +1,5 @@
-from .html_collector import HtmlCollector
-from .mocks.http_requester_mock import mock_request_from_page
+from src.drivers.html_collector import HtmlCollector
+from src.drivers.mocks.http_requester_mock import mock_request_from_page
 
 def test_collect_essential_information():
   http_requester_response = mock_request_from_page()
