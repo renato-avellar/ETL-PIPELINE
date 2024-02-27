@@ -11,7 +11,10 @@ disable=
       W0718, # broad-exception-caught
       C0411, # wrong-import-order
       E0202, # method-hidden
-      E0401, #Unable to import
+      E0401, # Unable to import
+      C0321, # multiple-statements
+      C0304, # Final newline missing (missing-final-newline)
+      C0301, # Line too long
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
