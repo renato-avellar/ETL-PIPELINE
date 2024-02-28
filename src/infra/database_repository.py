@@ -1,7 +1,8 @@
 from typing import Dict
 from .database_connector import DatabaseConnector
+from .interfaces.database_repository import DatabaseRespositoryInterface
 
-class DatabaseRespository:
+class DatabaseRespository(DatabaseRespositoryInterface):
   
   @classmethod
   def insert_artist(cls, data: Dict) -> None:
